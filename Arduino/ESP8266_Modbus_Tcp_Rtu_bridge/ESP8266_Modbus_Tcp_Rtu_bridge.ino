@@ -284,7 +284,7 @@ void setup()
   	digitalWrite(LED_BUILTIN, HIGH); // LED off
 
 	Serial.begin(115200);
-  	WiFi.begin("ZyXEL2","mypass12");   // start etehrnet interface
+  	WiFi.begin("ssidname","password");   // start etehrnet interface
   	while (WiFi.status() != WL_CONNECTED) {
     	delay(1000);
     	Serial.print(".");
