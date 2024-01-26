@@ -2,7 +2,7 @@
  The simpliest (all in one file) Arduino / VSCode example.
  ESP8266 works as:
  1. Modbus RTU master via UART (Software Serial port)
- 2. Modbas TCP server over WiFi
+ 2. Modbus TCP server over WiFi
     
 ## How it works
 1. An external TCP client (such as a Windows PC application) sends a Modbus request to the ESP8266's local IP address.
