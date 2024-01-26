@@ -284,14 +284,14 @@ void setup()
   	digitalWrite(LED_BUILTIN, HIGH); // LED off
 
 	Serial.begin(115200);
-  	WiFi.begin("ZyXEL2","mypass12");   // start etehrnet interface
+  	WiFi.begin("ssidname","password");  
   	while (WiFi.status() != WL_CONNECTED) {
     	delay(1000);
     	Serial.print(".");
   	}
   	Serial.println("");
   	Serial.print("IP address: ");
-  	Serial.println(WiFi.localIP()); // print your local IP address:
+  	Serial.println(WiFi.localIP()); 
   	mbServer.begin();
   	mbServer.setNoDelay(true);
   	digitalWrite(LED_BUILTIN, LOW); // LED on
