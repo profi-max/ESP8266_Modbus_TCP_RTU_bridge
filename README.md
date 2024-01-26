@@ -46,3 +46,8 @@ Use the built-in USB-COM serial port at the selected baud rate:
 ```
 Serial.begin(115200);
 ```
+Uncomment the line if you need debug Modbus messages:
+```
+#define MB_DEBUG
+```
+
